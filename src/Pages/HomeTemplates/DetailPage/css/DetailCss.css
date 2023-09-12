@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css?family=Calibri:400,300,700);
+
+.mt-100 {
+
+    margin-top: 100px;
+
+}
+
+.modal-button {
+    background-color: rgb(29, 226, 226);
+    border-color: rgb(29, 226, 226);
+    border-radius: 6px;
+    color: white;
+    font-size: 17px;
+    padding-right: 76px;
+    padding-left: 76px;
+}
+
+@keyframes myModal_ani {
+    from {
+        opacity: 0;
+    }
+    
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#myModal {
+    transform: translateY(-500px);
+    opacity: 0;
+    animation: myModal_ani 0.75s ease-in-out forwards;
+}
+
+.card {
+    border-radius: 3vh;
+    margin: auto;
+    max-width: 380px;
+    padding: 7vh 6vh;
+    align-items: center;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media(max-width:767px) {
+    .card {
+        width: 90vw;
+    }
+}
+
+.card-img {
+    padding: 20px 0;
+    width: 40%;
+}
+
+.card-img img {
+    opacity: 0.7;
+}
+
+.card-title {
+    margin-bottom: unset;
+}
+
+.card-title p {
+    color: rgb(29, 226, 226);
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: unset;
+}
+
+.card-text p {
+    color: rgb(255, 254, 254);
+    font-size: 25px;
+    text-align: center;
+    padding: 3vh 0;
+    font-weight: lighter;
+}
+
+.btn {
+    width: 100%;
+    background-color: rgb(29, 226, 226);
+    border-color: rgb(29, 226, 226);
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+}
+
+.btn:focus {
+    box-shadow: none;
+    outline: none;
+    box-shadow: none;
+    color: white;
+    -webkit-box-shadow: none;
+    -webkit-user-select: none;
+    transition: none;
+}
+
+.btn:hover {
+    color: white;
+}
+
+
+.detail-layout {
+    position: relative;
+}
+
+@keyframes ModalBtn_Layout_ani {
+    from {
+        opacity: 0;
+    } 
+    to {
+        opacity: 1;
+    }
+}
+
+.ModalBtn_Layout {
+    position: fixed;
+    z-index: 50;
+    background-color: rgba(0, 0, 0, 0.39);
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left: 0;
+    animation: ModalBtn_Layout_ani 0.75s linear;
+}
+
+.card {
+    background: linear-gradient(to bottom ,rgba(46, 46, 172, 0.86), rgba(151, 44, 201, 0.8));
+    vertical-align: middle;
+    font-family: 'Calibri', sans-serif !important;
+}

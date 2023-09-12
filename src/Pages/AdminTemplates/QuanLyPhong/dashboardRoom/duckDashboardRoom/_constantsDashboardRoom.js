@@ -1,0 +1,5 @@
+export const FETCH_DANH_SACH_ROOM_SUCCESS = '@@quanlyphong/FETCH_DANH_SACH_ROOM_SUCCESS';
+export const FETCH_DANH_SACH_ROOM_REQUEST = '@@quanlyphong/FETCH_DANH_SACH_ROOM_REQUEST';
+export const FETCH_DANH_SACH_ROOM_FAIL = '@@quanlyphong/FETCH_DANH_SACH_ROOM_FAIL';
+
+export const SEARCH_ROOM_DASHBOARD = '@@quanlyphong/SEARCH_ROOM_DASHBOARD';

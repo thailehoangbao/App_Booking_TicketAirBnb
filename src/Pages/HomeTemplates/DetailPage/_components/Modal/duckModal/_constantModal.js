@@ -1,0 +1,1 @@
+export const IS_OPEN_MODAL = '@@detail/component/modal/IS_OPEN_MODAL';

@@ -1,0 +1,1 @@
+export const IS_OPEN_MODAL = '@@userEditUser/IS_OPEN_MODAL';

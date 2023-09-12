@@ -1,0 +1,3 @@
+export const FETCH_LISTPHONGTHUE_SUCCESS = '@@homepage/listPhongThue/FETCH_LISTPHONGTHUE_SUCCESS';
+export const FETCH_LISTPHONGTHUE_REQUEST = '@@homepage/listPhongThue/FETCH_LISTPHONGTHUE_REQUEST';
+export const FETCH_LISTPHONGTHUE_FAIL = '@@homepage/listPhongThue/FETCH_LISTPHONGTHUE_FAIL';

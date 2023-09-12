@@ -1,0 +1,26 @@
+.navLinkDSND {
+    position: relative;
+
+}
+
+.navLinkDSND__child {
+    opacity: 0;
+    width: 80px;
+    height: 30px;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    right: -600%;
+    background-color: red;
+    color: white;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.navLinkDSND:hover .navLinkDSND__child {
+    background-color: rgb(121, 121, 126);
+    opacity: 1;
+}

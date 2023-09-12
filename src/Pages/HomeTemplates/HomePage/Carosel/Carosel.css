@@ -1,0 +1,11 @@
+.swiper-button-prev:after {
+    color: black;
+    font-size: 24px;
+    border-radius: 1px solid #333;
+}
+
+.swiper-button-next:after {
+    color: black;
+    font-size: 24px;
+    border-radius: 1px solid #333;
+}

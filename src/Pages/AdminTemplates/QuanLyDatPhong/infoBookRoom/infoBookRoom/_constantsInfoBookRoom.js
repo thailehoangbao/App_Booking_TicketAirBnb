@@ -1,0 +1,3 @@
+export const FETCH_INFO_BOOK_ROOM_SUCCESS = '@@quanlydatphong/FETCH_INFO_BOOK_ROOM_SUCCESS';
+export const FETCH_INFO_BOOK_ROOM_REQUEST = '@@quanlydatphong/FETCH_INFO_BOOK_ROOM_REQUEST';
+export const FETCH_INFO_BOOK_ROOM_FAIL = '@@quanlydatphong/FETCH_INFO_BOOK_ROOM_FAIL';
