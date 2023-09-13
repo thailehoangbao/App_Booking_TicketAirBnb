@@ -36,8 +36,6 @@ export const actFetchDeleteViTRi = (id,navigate) => {
                 if (result.status === 200) {
                     alert('Bạn Xóa vị trí thành công !');
                     dispatch(actDeleteViTRiSuccess(result.data.content));
-                    navigate('/admin/quanlyvitri/dashboard-vitri');
-                    dispatch(actFetchDanhSachViTri());
                 }
             })
             .catch((error) => {

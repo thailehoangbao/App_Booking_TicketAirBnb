@@ -12,14 +12,23 @@ export default function User() {
   const [isUpload, setIsUpload] = useState(false);
   const navigate = useNavigate();
   const dispatch = useDispatch();
+
   const user = JSON.parse(localStorage.getItem(USER_LOGIN))?.content.user;
+
   const { data } = useSelector(state => state.listPhongDaDatUserReducer);
   const content = JSON.parse(localStorage.getItem(USER_LOGIN));
   const date = formatDateToDDMMYYYY(content?.dateTime);
 
   useEffect(() => {
-    dispatch(actFetchUserListPhongDaDat(user.id))
+    if(user) {
+      dispatch(actFetchUserListPhongDaDat(user.id))
+    }
+    return navigate('/login')
   }, [])
+
+  if (!JSON.parse(localStorage.getItem(USER_LOGIN))) {
+    return <NavLink to="/login"/>
+  }
 
   const renderListPhongDaDat = () => {
     return data?.map((phong, index) => {

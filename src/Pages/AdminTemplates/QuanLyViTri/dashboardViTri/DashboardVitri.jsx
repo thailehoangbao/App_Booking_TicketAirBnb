@@ -90,7 +90,7 @@ export default function DashboardViTri() {
                     </NavLink>
                     <span className='cursor-pointer' key={6} onClick={() => {
                         //gọi action xóa
-                        if (window.confirm(`Bạn chắc chắn xóa người dùng này ${vitri?.tenViTri} này!?`)) {
+                        if (window.confirm(`Bạn chắc chắn xóa vị trí ${vitri?.tenViTri} này!?`)) {
                             //gọi action Xóa phim
                             dispatch(actFetchDeleteViTRi(vitri?.id));
                         }

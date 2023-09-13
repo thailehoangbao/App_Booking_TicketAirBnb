@@ -124,7 +124,7 @@ export default function DashboardBookRoom() {
       }}>Thêm Phòng</Button>
       <Search
         style={{ backgroundColor: "black", borderRadius: "5px" }}
-        placeholder="Nhập vào tên phòng"
+        placeholder="Nhập vào id phòng cần tìm kiếm"
         allowClear
         enterButton={<SearchOutlined className='pb-2' />}
         size="large"
